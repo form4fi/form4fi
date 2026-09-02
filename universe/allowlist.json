@@ -1,0 +1,670 @@
+{
+ "chainId": 4663,
+ "fingerprint": "0x6c1fdd40002dcb440c7fff6a84171404d279ccb057803b65826f7546acd65630",
+ "weth": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+ "usdg": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+ "v3Factory": "0x1f7d7550b1b028f7571e69a784071f0205fd2efa",
+ "ethUsdFeed": "0x78F3556b67E17Df817D51Ef5a990cDaF09E8d3A9",
+ "usdgUsdFeed": "0x61B7e5650328764B076A108EFF5fa7282a1B9aD2",
+ "stocks": [
+  {
+   "ticker": "AAPL",
+   "address": "0xaf3d76f1834a1d425780943c99ea8a608f8a93f9",
+   "name": "Apple \u2022 Robinhood Token",
+   "feed": "0x6B22A786bAa607d76728168703a39Ea9C99f2cD0",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x783C9bbB765047CFdD2b84b92b2Ca9F11D34b7Ed",
+    "other": "USDG",
+    "liqUsd": 150499.18,
+    "vol24": 215019.8,
+    "fee": 3000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": {
+    "pool": "0x8bb3514e2204E1cDF3Ac149EFEe7Ff04D91B719f",
+    "other": "WETH",
+    "liqUsd": 48061.99,
+    "vol24": 2609886.65,
+    "fee": 500,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 1
+  },
+  {
+   "ticker": "AMD",
+   "address": "0x86923f96303d656e4aa86d9d42d1e57ad2023fdc",
+   "name": "AMD \u2022 Robinhood Token",
+   "feed": "0x943A29E7ae51A4798823ca9eEd2ed533B2A22C72",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x48D284A2A4d3DC1b3Da08231Fe44317e7e7Aa51f",
+    "other": "USDG",
+    "liqUsd": 25541.59,
+    "vol24": 188334.7,
+    "fee": 3000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": null,
+   "fakes": 1
+  },
+  {
+   "ticker": "AMZN",
+   "address": "0x12f190a9f9d7d37a250758b26824b97ce941bf54",
+   "name": "Amazon \u2022 Robinhood Token",
+   "feed": "0xD5a1508ceD74c084eBf3cBe853e2C968fB2a651C",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x8AC92DA74AB5F3b1d024Dc1943Ad7e15Dc4179Ef",
+    "other": "USDG",
+    "liqUsd": 218744.43,
+    "vol24": 2031795.06,
+    "fee": 3000,
+    "token0": "0x12f190a9f9d7d37a250758b26824b97ce941bf54"
+   },
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "ASML",
+   "address": "0x47f93d52cbec7c6d2cfc080e154002370a60daea",
+   "name": "ASML Holding NV \u2022 Robinhood Token",
+   "feed": "0xB4106147E8cce40b7d46124090d373A71b70f87D",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0xedb22516B14Eb2d1C86927Db373B0E8bF70F5cD1",
+    "other": "USDG",
+    "liqUsd": 36700.01,
+    "vol24": 284578.82,
+    "fee": 10000,
+    "token0": "0x47f93d52cbec7c6d2cfc080e154002370a60daea"
+   },
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "BABA",
+   "address": "0xad25ac6c84d497db898fa1e8387bf6af3532a1c4",
+   "name": "Alibaba \u2022 Robinhood Token",
+   "feed": "0x62Cc8F9b5f56a33c9C8A60c8B92779f523c4E984",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x9EDa4BCb3EBfEdE532f3cAE3864fC0CEFff782Aa",
+    "other": "USDG",
+    "liqUsd": 2407.55,
+    "vol24": 45705.12,
+    "fee": 10000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": null,
+   "fakes": 3
+  },
+  {
+   "ticker": "CLSK",
+   "address": "0xcbb95bbf36099d34da091dc6fa6f49efa257cee3",
+   "name": "CleanSpark \u2022 Robinhood Token",
+   "feed": "0x810c12D3a554Bc47fd39597Fe3b3AAC4941F50eF",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": null,
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "COIN",
+   "address": "0x6330d8c3178a418788df01a47479c0ce7ccf450b",
+   "name": "Coinbase \u2022 Robinhood Token",
+   "feed": "0xA3a468A452940B7D6b69991207B508c609a98Ef2",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": null,
+   "poolWeth": {
+    "pool": "0x6707aeAc7D0e519B083219d27BB427364363183A",
+    "other": "WETH",
+    "liqUsd": 143216.73,
+    "vol24": 515188.72,
+    "fee": 3000,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 4
+  },
+  {
+   "ticker": "CRCL",
+   "address": "0xdf0992e440dd0be65bd8439b609d6d4366bf1cb5",
+   "name": "Circle Internet Group \u2022 Robinhood Token",
+   "feed": "0x6652eDf64bA3731C4F2D3ce821A0Fb1f1f6b482a",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x654E4143e82a5824445Ade0824351C2A9ACD95a8",
+    "other": "USDG",
+    "liqUsd": 53393.38,
+    "vol24": 231808.89,
+    "fee": 3000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": {
+    "pool": "0x754DdD4bF8E8635B4301a7f4Af2Ea7A82AB6cEA7",
+    "other": "WETH",
+    "liqUsd": 48020.96,
+    "vol24": 21700.44,
+    "fee": 10000,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 0
+  },
+  {
+   "ticker": "CRWV",
+   "address": "0x5f10a1c971b69e47e059e1dc91901b59b3fb49c3",
+   "name": "CoreWeave \u2022 Robinhood Token",
+   "feed": "0xe1b3aABCAFAd1c94708dc1367dcfF8Aa4407487C",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": null,
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "DELL",
+   "address": "0x941ae714ec6d8130c7b75d67160ca08f1e7d11dd",
+   "name": "Dell \u2022 Robinhood Token",
+   "feed": "0x1C6c8cADBe02E19129c39dDB92281cE4c0bf206b",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0xc30c89cB7815A1488b7998D15eEC73961707Fc5a",
+    "other": "USDG",
+    "liqUsd": 50151.45,
+    "vol24": 724005.22,
+    "fee": 10000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": null,
+   "fakes": 1
+  },
+  {
+   "ticker": "EWY",
+   "address": "0x7f0abef0c07280f82c6a08ead09ded6bae2c13fc",
+   "name": "iShares MSCI South Korea fund \u2022 Robinhood Token",
+   "feed": "0xEFdf54610B62A7753Ec30bDc380847c12D32e1D1",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": null,
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "GME",
+   "address": "0x1b0e319c6a659f002271b69db8a7df2f911c153e",
+   "name": "GameStop \u2022 Robinhood Token",
+   "feed": "0x27C71df6A64fB476468EdF256CF72c038baB5B67",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0xE2b46c905E12Ab8E2f864e4821a4325884C1B126",
+    "other": "USDG",
+    "liqUsd": 545515.98,
+    "vol24": 7008532.08,
+    "fee": 500,
+    "token0": "0x1b0e319c6a659f002271b69db8a7df2f911c153e"
+   },
+   "poolWeth": {
+    "pool": "0xc6BCC95043DC48C204bB2D57fb264a10Efe0a607",
+    "other": "WETH",
+    "liqUsd": 8933.69,
+    "vol24": 488434.46,
+    "fee": 500,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 9
+  },
+  {
+   "ticker": "GOOGL",
+   "address": "0x2e0847e8910a9732eb3fb1bb4b70a580adad4fe3",
+   "name": "Alphabet Class A \u2022 Robinhood Token",
+   "feed": "0xF6f373a037c30F0e5010d854385cA89185AE638b",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x34D0dC122CF9A8Eb296fC5e0D3A233625D7d19b7",
+    "other": "USDG",
+    "liqUsd": 50111.36,
+    "vol24": 1494473.67,
+    "fee": 500,
+    "token0": "0x2e0847e8910a9732eb3fb1bb4b70a580adad4fe3"
+   },
+   "poolWeth": {
+    "pool": "0x8fB9301586f27e2cff85312F7c1d0F16C6167cdE",
+    "other": "WETH",
+    "liqUsd": 2901.84,
+    "vol24": 24882.88,
+    "fee": 100,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 2
+  },
+  {
+   "ticker": "INTC",
+   "address": "0xc72b96e0e48ecd4dc75e1e45396e26300bc39681",
+   "name": "Intel \u2022 Robinhood Token",
+   "feed": "0x3f390C5C24628Ac7C489515402235FeAD71D1913",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x2e5a92f5013a64661A49312111be2e8aBd33F56a",
+    "other": "USDG",
+    "liqUsd": 44252.41,
+    "vol24": 73365.81,
+    "fee": 3000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "IONQ",
+   "address": "0x558378e000d634a36593e338ebacdd6207640efe",
+   "name": "IonQ \u2022 Robinhood Token",
+   "feed": "0x22EfeC4919baf55F360E0EDee4AbEB26DE4971eb",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": null,
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "META",
+   "address": "0xc0d6457c16cc70d6790dd43521c899c87ce02f35",
+   "name": "Meta Platforms \u2022 Robinhood Token",
+   "feed": "0x7C38C00C30BEe9378381E7B6135d7283356D71b1",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x107a7Cb40d8665360ba10E59471Af06150A50922",
+    "other": "USDG",
+    "liqUsd": 16524.27,
+    "vol24": 79888.34,
+    "fee": 3000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": {
+    "pool": "0xa4BdB396a69617eb7F70E2cc1EF526f7340b1B0d",
+    "other": "WETH",
+    "liqUsd": 22630.33,
+    "vol24": 229972.22,
+    "fee": 3000,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 4
+  },
+  {
+   "ticker": "MSFT",
+   "address": "0xe93237c50d904957cf27e7b1133b510c669c2e74",
+   "name": "Microsoft \u2022 Robinhood Token",
+   "feed": "0x45C3C877C15E6BA2EBB19eA114Ea508d14C1Af2E",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0xeb60bCD1D920ad6E102690CCFC6fB488899E1510",
+    "other": "USDG",
+    "liqUsd": 136959.01,
+    "vol24": 561756.96,
+    "fee": 3000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": null,
+   "fakes": 1
+  },
+  {
+   "ticker": "MSTR",
+   "address": "0xec262a75e413fafd0df80480274532c79d42da09",
+   "name": "Strategy Inc. \u2022 Robinhood Token",
+   "feed": "0x396118bdFB181e6240E74D243F266B061c0edc3D",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x17578C0e0D15da44f31677263114F71aE76653EA",
+    "other": "USDG",
+    "liqUsd": 145319.77,
+    "vol24": 238966.81,
+    "fee": 10000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": {
+    "pool": "0x70504a6FafdbfB75fE971FAA4dD716e79aC5624c",
+    "other": "WETH",
+    "liqUsd": 605028.87,
+    "vol24": 741745.77,
+    "fee": 10000,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 3
+  },
+  {
+   "ticker": "MU",
+   "address": "0xff080c8ce2e5feadaca0da81314ae59d232d4afd",
+   "name": "Micron Technology \u2022 Robinhood Token",
+   "feed": "0x425EEFdCf05ed6526C3cE61Af99429A228a6d596",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0xd057B1Bc54917855BBee58eAd58647f47caB35E5",
+    "other": "USDG",
+    "liqUsd": 209111.15,
+    "vol24": 2703002.8,
+    "fee": 3000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": null,
+   "fakes": 4
+  },
+  {
+   "ticker": "NBIS",
+   "address": "0x9d9c6684f596f66a64c030b93a886d51fd4d7931",
+   "name": "Nebius Group \u2022 Robinhood Token",
+   "feed": "0xE1D87B116Ba0fe898998f1D140339D1fA1E09705",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": null,
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "NVDA",
+   "address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "name": "NVIDIA \u2022 Robinhood Token",
+   "feed": "0x379EC4f7C378F34a1B47E4F3cbeBCbAC3E8E9F15",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0xd4EB21209C4D6093f80B5b84f5C45cc093EA14a3",
+    "other": "USDG",
+    "liqUsd": 5587053.26,
+    "vol24": 35380425.19,
+    "fee": 500,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": {
+    "pool": "0xC0Be1cb0f674D9737C72B2A63fC542361185b807",
+    "other": "WETH",
+    "liqUsd": 182713.69,
+    "vol24": 400544.04,
+    "fee": 3000,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 4
+  },
+  {
+   "ticker": "ORCL",
+   "address": "0xb0992820e760d836549ba69bc7598b4af75dee03",
+   "name": "Oracle \u2022 Robinhood Token",
+   "feed": "0x0e6a64a2B58A6693a531E6c555f3A5d042eEA844",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": null,
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "PLTR",
+   "address": "0x894e1ec2d74ffe5aef8dc8a9e84686accb964f2a",
+   "name": "Palantir Technologies \u2022 Robinhood Token",
+   "feed": "0x820ABedFF239034956B7A9d2F0a331f9F075eB4c",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x851680416A4f4E1c463d45171d61ACDdBc8554c0",
+    "other": "USDG",
+    "liqUsd": 58079.45,
+    "vol24": 1752961.46,
+    "fee": 3000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": null,
+   "fakes": 4
+  },
+  {
+   "ticker": "QQQ",
+   "address": "0xd5f3879160bc7c32ebb4dc785f8a4f505888de68",
+   "name": "Invesco QQQ \u2022 Robinhood Token",
+   "feed": "0x80901d846d5D7B030F26B480776EE3b29374C2ae",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0xD60A5d14dB690B7Afad71F76B108071D7175597d",
+    "other": "USDG",
+    "liqUsd": 273931.91,
+    "vol24": 2059123.69,
+    "fee": 500,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": {
+    "pool": "0xA40D00a55d43bA2d188039DCF88bD68f4F133E78",
+    "other": "WETH",
+    "liqUsd": 51680.9,
+    "vol24": 69916.53,
+    "fee": 3000,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 4
+  },
+  {
+   "ticker": "RGTI",
+   "address": "0x284358abc07f9359f19f4b5b4ac91901be2597ba",
+   "name": "Rigetti Computing \u2022 Robinhood Token",
+   "feed": "0x2A045cF1C49c61c166C036d2f06FA2D2d984f765",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": null,
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "RKLB",
+   "address": "0x3b14c39e89d60d627b42a1a4ca45b5bb45fc12e2",
+   "name": "Rocket Lab Corporation \u2022 Robinhood Token",
+   "feed": "0x045477BF65Aef6f4F2386ad0164579e48381CC74",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": null,
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "SGOV",
+   "address": "0x92fd66527192e3e61d4ddd13322aa222de86f9b5",
+   "name": "iShares 0-3 Month Treasury Bond \u2022 Robinhood Token",
+   "feed": "0xa0DF4ee0fFf975306345875E3548Fcc519577A11",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0xfAb520051f96F4D2a32c22B6a3dD7fFfdf231bFe",
+    "other": "USDG",
+    "liqUsd": 12597.87,
+    "vol24": 29958.14,
+    "fee": 3000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "SLV",
+   "address": "0x411efb0e7f985935daec3d4c3ebaea0d0ad7d89f",
+   "name": "iShares Silver Trust \u2022 Robinhood Token",
+   "feed": "0x209b73908e92Ae021826eD79609845451Ecba2ce",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x8cB787e6c315D464775289BaD00FDD67d53Ecb3D",
+    "other": "USDG",
+    "liqUsd": 202015.27,
+    "vol24": 205195.05,
+    "fee": 3000,
+    "token0": "0x411efb0e7f985935daec3d4c3ebaea0d0ad7d89f"
+   },
+   "poolWeth": null,
+   "fakes": 1
+  },
+  {
+   "ticker": "SNDK",
+   "address": "0xb90a19ff0af67f7779aff50a882a9cff42446400",
+   "name": "Sandisk Corporation \u2022 Robinhood Token",
+   "feed": "0xfb133Fa4B7b385802B693a293606682Df47109A3",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0xA1e1C9519cD5ae47e9A935645E1A7b935b944559",
+    "other": "USDG",
+    "liqUsd": 52678.92,
+    "vol24": 269237.18,
+    "fee": 10000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": {
+    "pool": "0x0654e1E709987C57812a726A0A4CE61dB4cA149e",
+    "other": "WETH",
+    "liqUsd": 9.01,
+    "vol24": 1234.67,
+    "fee": 500,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 1
+  },
+  {
+   "ticker": "SPCX",
+   "address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "name": "Space Exploration Technologies Corp. Class A Common Stock \u2022 Robinhood Token",
+   "feed": "0xB265810950ba6c5C0Ff821c9963014a56fD8Bffb",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0xc61284332117c3FB23A2A56cceFFD07F7aF60029",
+    "other": "USDG",
+    "liqUsd": 975665.73,
+    "vol24": 22801291.78,
+    "fee": 500,
+    "token0": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea"
+   },
+   "poolWeth": {
+    "pool": "0xC3c9F0171490Ef0F4536fe493F3b0EbB5ee0CB5e",
+    "other": "WETH",
+    "liqUsd": 259949.18,
+    "vol24": 2966237.66,
+    "fee": 500,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 0
+  },
+  {
+   "ticker": "SPY",
+   "address": "0x117cc2133c37b721f49de2a7a74833232b3b4c0c",
+   "name": "SPDR S&P 500 ETF Trust \u2022 Robinhood Token",
+   "feed": "0x319724394D3A0e3669269846abE664Cd621f9f6A",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0xa7Bb1AC63BBaB0C44316E6c8C455213441689167",
+    "other": "USDG",
+    "liqUsd": 103540.04,
+    "vol24": 824282.21,
+    "fee": 500,
+    "token0": "0x117cc2133c37b721f49de2a7a74833232b3b4c0c"
+   },
+   "poolWeth": {
+    "pool": "0xDDCBBa3666f578E3F09516f21Ff85BFee859AB5e",
+    "other": "WETH",
+    "liqUsd": 936453,
+    "vol24": 22298051.68,
+    "fee": 500,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 0
+  },
+  {
+   "ticker": "TSLA",
+   "address": "0x322f0929c4625ed5bad873c95208d54e1c003b2d",
+   "name": "Tesla \u2022 Robinhood Token",
+   "feed": "0x4A1166a659A55625345e9515b32adECea5547C38",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0xf4ACdAEEB7022862A763C9B1B885e11191c889E3",
+    "other": "USDG",
+    "liqUsd": 236985.52,
+    "vol24": 629787.59,
+    "fee": 3000,
+    "token0": "0x322f0929c4625ed5bad873c95208d54e1c003b2d"
+   },
+   "poolWeth": {
+    "pool": "0xA953CA88ff430e9487c60cA34d757414f4efdA07",
+    "other": "WETH",
+    "liqUsd": 55506.15,
+    "vol24": 297042.77,
+    "fee": 3000,
+    "token0": "0x0bd7d308f8e1639fab988df18a8011f41eacad73"
+   },
+   "fakes": 2
+  },
+  {
+   "ticker": "TSM",
+   "address": "0x58ffe4a942d3885baa22d7520691f611ef09e7aa",
+   "name": "Taiwan Semiconductor Manufacturing \u2022 Robinhood Token",
+   "feed": "0x874cF94aa8eC88Fd9560094dD065f2fB3E41Fc2F",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x07e8Ea83D4C1340774c8965125e26e12bf943bf1",
+    "other": "USDG",
+    "liqUsd": 116974.77,
+    "vol24": 227598,
+    "fee": 10000,
+    "token0": "0x58ffe4a942d3885baa22d7520691f611ef09e7aa"
+   },
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "USAR",
+   "address": "0xd917b029c761d264c6a312bbbcda868658ef86a6",
+   "name": "USA Rare Earth \u2022 Robinhood Token",
+   "feed": "0xA994d3684e8400A6c8078226925779FdeE682DD9",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x04391780F519B7d3ba59c9590459D76e23d225C4",
+    "other": "USDG",
+    "liqUsd": 24533.13,
+    "vol24": 171874.24,
+    "fee": 3000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": null,
+   "fakes": 0
+  },
+  {
+   "ticker": "USO",
+   "address": "0xa30fa36db767ad9ed3f7a60fc79526fb4d56d344",
+   "name": "United States Oil Fund \u2022 Robinhood Token",
+   "feed": "0x75a9c76Ef439e2C7c2E5a34Ab105EcFe3766431c",
+   "decimals": 8,
+   "heartbeat": 86400,
+   "poolUsdg": {
+    "pool": "0x02175608F1b5E6b5ed221cCFdC7Be197D111D915",
+    "other": "USDG",
+    "liqUsd": 497416.89,
+    "vol24": 1452788.24,
+    "fee": 3000,
+    "token0": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "poolWeth": null,
+   "fakes": 0
+  }
+ ],
+ "wethUsdgPools": []
+}

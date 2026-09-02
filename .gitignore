@@ -1,0 +1,11 @@
+# secrets and local state
+.secrets/
+cache/
+out/
+broadcast/
+# third-party verified sources and docs bundles pulled for reference
+_raw/
+.DS_Store
+# local anvil-fork rehearsal harness, not part of the public contract
+rehearsal/
+script/Rehearse.s.sol
